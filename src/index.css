@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  height: 55px;
+  background-color: #0067A3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+.logo{
+  padding-left: 10px;
+}
+.PersonalArea{
+  display: flex;
+  padding-right: 20px;
+}
+.AreaImg{
+  padding-right: 20px;
+  font-size: 30px;
+}
+.AreaBtn{
+  padding-top: 7px;
+  cursor: pointer;
+}
+.logout{
+  float: right;
+  width: 134px;
+  height: 60px;
+  background-color: #EBECF0;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  margin-top: 5px;
+  margin-right: 10px;  
+}
+.profile{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.logoutLogout{
+  margin-left: 10px;
+}
+.app{
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+.main{
+  height: 800px;
+  
+  background-color: #1178b4;
+}
+.board{
+  text-align: left;
+  width: 300px;
+  background-color: #EBECF0;
+  border-radius: 15px;
+  margin-top: 50px;
+  
+}
+.board__title{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+.titleItem{
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  margin-top: 30px;
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+  padding-left: 10px;
+  width: 250px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  cursor: grab;
+  
+}
+.deleteBlock{
+  margin-top: 20px; 
+}
+.iconTrash{
+  cursor: pointer;
+  padding-right: 10px;
+}
+.iconTrash:hover{
+  color: #1178b4;
+  transition: all ease 0.2s;
+}
+.inpCardAdd{
+  margin-left: 25px;
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+.inpCard{
+  border: none;
+  border-bottom: 1px solid black;
+}
+.addCard{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #5E6C84;
+  cursor: pointer;
+  width: 90px;
+}
+.faBracket{
+  margin-left: 10px;
+}
